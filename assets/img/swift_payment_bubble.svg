@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="305" height="181" viewBox="0 0 305 181">
+  <defs>
+    <filter id="Rectangle_979" x="0" y="0" width="305" height="181" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#053888" flood-opacity="0.392"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1009" data-name="Group 1009" transform="translate(59.859 49.942)">
+    <g transform="matrix(1, 0, 0, 1, -59.86, -49.94)" filter="url(#Rectangle_979)">
+      <rect id="Rectangle_979-2" data-name="Rectangle 979" width="185" height="61" rx="20" transform="translate(60 50)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_981" data-name="Rectangle 981" width="36" height="35" rx="10" transform="translate(19.141 13.058)" fill="#05bf4c"/>
+    <g id="Group_857" data-name="Group 857" transform="translate(29.15 23.053)">
+      <path id="Icon_feather-check" data-name="Icon feather-check" d="M20.9,9,10.657,19.246,6,14.589" transform="translate(-6 -9)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Icon_feather-check-2" data-name="Icon feather-check" d="M20.9,9,10.657,19.246,6,14.589" transform="translate(-6 -3.877)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
