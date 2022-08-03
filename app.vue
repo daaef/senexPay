@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <HeaderTop />
-    <Main />
-  </div>
+  <NuxtPage />
 </template>
 <script>export default {
   components: {}

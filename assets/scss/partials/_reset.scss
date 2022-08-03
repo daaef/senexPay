@@ -2,9 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "SF Pro", sans-serif;
+}
+
+html, body {
+  font-size: 16px;
 }
 
 a:link, a:hover, a:active, a:focus {
   text-decoration: none;
   outline: none;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
 }

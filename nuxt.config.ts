@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     head: {
-        title: 'SenexPay Frontend Technical Test Page',
+        title: 'SenexPay | Buy and Sell Crypto the easier way.',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         ]
     },
     css: [
-        "~/assets/scss/style.scss"
+        "~/assets/fonts/sf-pro.css",
+        "~/assets/scss/style.scss",
     ],
 })
