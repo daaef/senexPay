@@ -11,5 +11,8 @@
     "nuxt": "3.0.0-rc.6",
     "sass": "^1.54.1",
     "sass-loader": "10"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }

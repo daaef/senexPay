@@ -4,11 +4,15 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 120px;
+    .nav--toggle {
+      display: none;
+    }
     .logo {
       img {
         height: 30px;
@@ -22,6 +26,9 @@ nav {
         display: flex;
         &.left--section {
           margin-right: 50px;
+          .login-lnk {
+            display: none;
+          }
         }
         li {
           margin: 0 15px;

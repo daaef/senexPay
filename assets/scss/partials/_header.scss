@@ -3,12 +3,14 @@ header {
   min-height: 100vh;
   .header--content {
     display: flex;
+    padding-top: 120px;
     align-items: center;
     min-height: 100vh;
     .header--cto {
-      width: 50%;
+      padding-right: 50px;
+      width: 42%;
       h2 {
-        font-size: 5rem;
+        font-size: 3.5rem;
         font-weight: bold;
         color: #ffffff;
         .gradient--text {
@@ -18,7 +20,7 @@ header {
         }
       }
       p {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-top: 1.8rem;
         color: #ffffff;
       }
@@ -28,7 +30,7 @@ header {
         button {
           cursor: pointer;
           img {
-            height: 40px;
+            height: 35px;
           }
           display: flex;
           align-items: center;
@@ -38,7 +40,7 @@ header {
             display: block;
             margin-left: 20px;
             color: #064EBE;
-            font-size: 1.8rem;
+            font-size: 1.3rem;
             //margin-top: 4px;
           }
           &:hover {
@@ -57,7 +59,43 @@ header {
       }
     }
     .header--media {
-      width: 50%;
+      padding-left: 50px;
+      width: 58%;
+      display: flex;
+      align-items: center;
+      .img--left {
+        width: 45%;
+        img {
+          width: 100%;
+        }
+      }
+      .img--group-right {
+        width: 55%;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & > img {
+          margin-bottom: 40px;
+        }
+        .widget--span {
+          max-width: 100%;
+          display: flex;
+          img, svg {
+            width: 100%;
+          }
+          button {
+            padding: 0;
+            height: 30px;
+            &:first-of-type {
+              margin-right: 10px;
+            }
+            &:last-of-type {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
     }
   }
 }

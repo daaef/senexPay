@@ -18,4 +18,5 @@ export default defineNuxtConfig({
         "~/assets/fonts/sf-pro.css",
         "~/assets/scss/style.scss",
     ],
+    plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
 })

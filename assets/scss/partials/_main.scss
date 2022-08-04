@@ -1,4 +1,146 @@
 .container {
   max-width: 80%;
   margin: 0 auto;
+  &.small {
+    max-width: 60%;
+  }
+  overflow-x: hidden;
+}
+
+.link {
+  text-decoration: underline;
+  color: #5694FC;
+}
+
+.market {
+  background: #042B69;
+  min-height: 80vh;
+  width: 100%;
+  padding: 80px 0;
+  .crypto--card {
+    transition: all .3s ease-in-out;
+    &:hover {
+      border: 3px solid #5694FC;
+    }
+    background: #041D45;
+    margin-bottom: 40px;
+    padding: 40px;
+    border-radius: 14px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .coin {
+      display: flex;
+      img {
+        height: 60px;
+      }
+      span {
+        display: block;
+        align-self: center;
+        margin-left: 10px;
+        color: #FFFFFF;
+        font-size: 1.4rem;
+      }
+    }
+    .cost {
+      font-weight: bold;
+      margin-right: 14px;
+      color: #FFFFFF;
+      font-size: 1.5rem;
+    }
+    .buy--cost {
+      .buy--btn {
+        background: #06A84B;
+        &:hover {
+          background: #05853c;
+        }
+      }
+    }
+    .buy--btn, .sell--btn {
+      font-size: 1.1rem;
+      padding: 15px 35px;
+      border-radius: 12px;
+      color: #FFFFFF;
+    }
+    .sell-cost {
+      .sell--btn {
+        background: #FF5F24;
+        &:hover {
+          background: #cb4c1d;
+        }
+      }
+    }
+  }
+  .market--p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+  }
+}
+
+.bottom--sect {
+  padding: 40px 0;
+  overflow-x: hidden;
+  .container {
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    .meta--info {
+      width: 35%;
+      h3 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #053888;
+      }
+      p {
+        margin-top: 40px;
+        color: #3E3E41;
+        font-size: 1.27rem;
+      }
+    }
+
+    .meta--img {
+      width: 65%;
+      text-align: right;
+      position: relative;
+      padding-left: 60px;
+      display: flex;
+      justify-content: flex-end;
+      .meta--container {
+        height: 65vh;
+        width: 80%;
+        position: relative;
+        .app--screen {
+          height: 100%;
+          width: 75%;
+          object-fit: contain;
+          position: relative;
+          z-index: 2;
+        }
+
+        .grad--circ {
+          position: absolute;
+          right: 0;
+          height: 80%;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+        }
+
+        .country--bubbles {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%) translateX(-20%);;
+          z-index: 3;
+          left: 0;
+          width: 320px;
+
+          .bubble {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
