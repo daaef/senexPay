@@ -42,7 +42,7 @@ export default {
 			cost: "$47,842.00"
 		  },
 		  coin: {
-			img: `/assets/img/btc.svg`,
+			img: `assets/img/btc.svg`,
 			name: "Bitcoin"
 		  }
 		},
@@ -54,7 +54,7 @@ export default {
 			cost: "$47,842.00"
 		  },
 		  coin: {
-			img: `/assets/img/tether.svg`,
+			img: `assets/img/tether.svg`,
 			name: "Bitcoin"
 		  }
 		},
@@ -66,7 +66,7 @@ export default {
 			cost: "₦456,000"
 		  },
 		  coin: {
-			img: `/assets/img/dodge.png`,
+			img: `assets/img/dodge.png`,
 			name: "Bitcoin"
 		  }
 		},
