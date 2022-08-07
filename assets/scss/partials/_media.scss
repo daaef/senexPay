@@ -1,18 +1,44 @@
 @media  (max-width: 1639px) {
-    html, body {
-      font-size: 14px;
-    }
   header .header--content .header--cto .cto--btns button img {
     height: 30px;
+  }
+}
+@media  (max-width: 1500px) {
+  header .header--content .header--cto .cto--btns button img {
+    height: 30px;
+  }
+  html, body {
+    font-size: 14px;
+  }
+  header .header--content .header--cto {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+    .cto--btns {
+      button {
+        padding: 15px 40px;
+
+        img {
+          height: 20px;
+        }
+
+        span {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 }
 
 @media  (max-width: 1300px) {
   header .header--content .header--cto .cto--btns button {
     padding: 10px 20px;
-    span {
-      font-size: 1rem;
-    }
+    //span {
+    //  font-size: 1rem;
+    //}
     img {
        height: 20px;
      }

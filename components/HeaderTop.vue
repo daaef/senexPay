@@ -3,8 +3,8 @@
     <NavBar />
 	<div class="header--content container">
 		<div data-aos="fade-right" class="header--cto">
-			<h2>Buy and Sell <span class="gradient--text">Crypto</span> the easier way.</h2>
-		  	<p>SenexPay created the simplest way to buy and sell Bitcoin and USDT in minutes.</p>
+			<h2>Buy and Sell <span class="gradient--text">Crypto</span> <br>the easier way.</h2>
+		  	<p>SenexPay created the simplest way to buy and sell <br>Bitcoin and USDT in minutes.</p>
 		  <div class="cto--btns">
 			<button>
 			  <img src="~/assets/img/apple_logo_appstore.svg" alt="Apple Logo">
@@ -28,7 +28,7 @@
 			<img src="~/assets/img/dashboard_widget1.png" alt="Dash Widget 1">
 			<img src="~/assets/img/dashboard_widget2.png" alt="Dash Widget 2">
 			<div class="widget--span">
-			  <button>
+			  <a href="#">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 viewBox="0 0 186 61" style="enable-background:new 0 0 186 61;" xml:space="preserve">
 				  <filter  filterUnits="userSpaceOnUse" height="181" id="Rectangle_979" width="306" x="0" y="0">
@@ -52,8 +52,8 @@
 				  </svg>
 
 
-			  </button>
-			  <button>
+			  </a>
+			  <a href="#">
 			  	<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				   viewBox="0 0 185 61" style="enable-background:new 0 0 185 61;" xml:space="preserve">
 				<filter  filterUnits="userSpaceOnUse" height="181" id="Rectangle_979" width="305" x="0" y="0">
@@ -77,7 +77,7 @@
 			  </g>
 				<text transform="matrix(1 0 0 1 68.9131 35.239)" class="st4 st5">Swift Payout</text>
 			</svg>
-			  </button>
+			  </a>
 			</div>
 		  </div>
 		</div>
